@@ -18,6 +18,18 @@ function jouer(choixJoueur) {
         scoreOrdinateur++;
         nombreMatches++;
     }
+    updateScores();
+}
+
+ function restartGame() {
+    scoreJoueur = 0;
+    scoreOrdinateur = 0;
+    scoreEgalite = 0;
+    nombreMatches = 0;
+    updateScores(); 
+}
+
+function updateScores() {
     document.getElementById("score-joueur").innerText = scoreJoueur;
     document.getElementById("score-ordinateur").innerText = scoreOrdinateur;
     document.getElementById("score-nul").innerText = scoreEgalite;
