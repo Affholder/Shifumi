@@ -102,3 +102,20 @@ main {
     font-weight: 800;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+#historique {
+    background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+    border-radius: var(--border-radius);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+#historique p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 0;
+    color : white;
+}
