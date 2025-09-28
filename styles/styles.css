@@ -119,3 +119,45 @@ main {
     margin: 0;
     color : white;
 }
+
+#restart {
+    width: 100%;
+    max-width: 400px;
+}
+
+#restart button {
+    background: linear-gradient(135deg, var(--danger-color), #dc2626);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+#restart button:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: var(--shadow-hover);
+    background: linear-gradient(135deg, #ef4444, var(--danger-color));
+}
+
+#restart button:active {
+    transform: translateY(-1px) scale(1);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
